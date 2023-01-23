@@ -1,6 +1,6 @@
 :root {
   --red-500: #b74a4a;
-  --red-800: #b50000;
+  --red-800: #ffffff;
 }
 
 body {
@@ -12,7 +12,7 @@ main {
   margin: auto;
   text-align: center;
   /* background-image: url(assets/Bandeira\ Abby-1.jpg); */
-  color: white;
+  color: var(--red-800);
   min-height: 100vh;
   background-position: center;
   z-index: 2;
@@ -52,22 +52,25 @@ h1 {
   font-family: 'Montserrat', sans-serif;
 }
 
-p, ul, a, footer {
+p,
+ul,
+a,
+footer {
   font-family: 'Noto Sans', sans-serif;
   font-size: 1rem;
 }
 
 ul {
   list-style-type: none;
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: center;
-   padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
 }
 
 li {
- padding-left: 0.5rem;
- padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 a {
@@ -79,7 +82,7 @@ a {
   margin: 0 auto 1rem;
   padding: 1rem 0;
   opacity: 100%;
-  color:white;
+  color: var(--red-500);
   text-decoration: none;
   gap: 1rem;
   border-radius: 4px;
@@ -96,7 +99,7 @@ i {
 
 .fa-location-dot {
   font-size: 1rem;
-  color: var(--red-800);
+  color: var(--red-500);
   margin-right: 0.5rem;
 }
 
