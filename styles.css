@@ -14,7 +14,7 @@ main {
   margin: auto;
   text-align: center;
   /* background-image: url(assets/Bandeira\ Abby-1.jpg); */
-  color: var(--red-500);
+  color: var(--white);
   min-height: 100vh;
   background-position: center;
   z-index: 2;
