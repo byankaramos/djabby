@@ -1,6 +1,8 @@
 :root {
+  --gray-200: #ababab;
   --red-500: #b74a4a;
-  --red-800: #ffffff;
+  --black: #000000f2;
+  --white: #fff;
 }
 
 body {
@@ -12,7 +14,7 @@ main {
   margin: auto;
   text-align: center;
   /* background-image: url(assets/Bandeira\ Abby-1.jpg); */
-  color: var(--red-800);
+  color: var(--red-500);
   min-height: 100vh;
   background-position: center;
   z-index: 2;
@@ -30,7 +32,7 @@ main {
 }
 
 .backdrop.color {
-  background-color: #000000f2;
+  background-color: var(--black);
   z-index: 1;
 }
 
@@ -82,7 +84,7 @@ a {
   margin: 0 auto 1rem;
   padding: 1rem 0;
   opacity: 100%;
-  color: var(--red-500);
+  color: var(--white);
   text-decoration: none;
   gap: 1rem;
   border-radius: 4px;
