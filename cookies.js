@@ -1,4 +1,4 @@
-var purecookieTitle = 'Aviso de Cookies',
+var purecookieTitle = 'Aviso de Cookies.',
   purecookieDesc = 'Ao utilizar este site, você aceita automaticamente que utilizemos cookies.',
   purecookieLink = '<a href="privacidade.html" target="_blank">Política de privacidade</a>',
   purecookieButton = 'Entendido.'
